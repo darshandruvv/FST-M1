@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Appium Project">
+    <test name="Verify">
+        <classes>
+            <class name="appiumProject.VerifyTodoTasks"/>
+            <class name="appiumProject.googlechrome_project"/>
+            <class name="appiumProject.loginviapopup"/>
+            <class name="appiumProject.verifyloginweb"/>
+        </classes>
+    </test>
+</suite>
