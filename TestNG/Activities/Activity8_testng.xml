@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="FSTTests" thread-count="4" parallel="classes">
+    <!-- Comment out groups to run everything -->
+	
+    <parameter name="username" value="admin" />
+    <parameter name="password" value="password" />
+    <test name="FSTActivities">
+        <classes>
+            <class name="Example.Activity1" />
+            <class name="Example.Activity2" />
+            <class name="Example.Activity3" />
+            <class name="Example.Activity5" />
+            <class name="Example.Activity6" />
+            <class name="Example.Activity7" />
+        </classes>
+    </test>
+</suite>
